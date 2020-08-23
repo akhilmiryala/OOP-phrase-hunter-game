@@ -21,6 +21,17 @@ if __name__ == "__main__":
     # print(game.active_phrase)
     # print(game.active_phrase.phrase)
 
+    # game = Game()
+    # print(game.active_phrase.phrase)
+    # game.active_phrase.display(game.guesses)
+
+    # game = Game()
+    # game.welcome()
+
+    # game = Game()
+    # print(game.active_phrase.phrase)
+    # game.start()
+
     game = Game()
-    print(game.active_phrase.phrase)
-    game.active_phrase.display(game.guesses)
+    game.start()
+
